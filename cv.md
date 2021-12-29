@@ -30,9 +30,13 @@ I'm here to know something new and learn something interesting. My life motto is
   <br>
     <button>Send Banana</button>
 </form>
+```
 
 ## Experience
 
 ## Education
++ **University:** State University of Land Use Planning
++ **Courses:** RSSchool stage0
 
 ## English
+English level is **B1** (intermediate)
