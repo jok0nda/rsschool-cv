@@ -7,10 +7,87 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.ico">
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="hello">
-    Привет, RS School :)
-    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="section-header" id="profile">
+                <img src="assets/my_photo.png" alt="Just me" height=250px>
+                <h1 class="section-title">Maria Petrukhina</h1> 
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><span class="subtitle">Location: </span>Sergiev Posad, Russia</li>
+                    <li><span class="subtitle">Phone: </span>+7 926 274-66-16</li>
+                    <li><span class="subtitle">E-mail: </span><a href="mailto:masha_rulezz@mail.ru">masha_rulezz@mail.ru</a></li>
+                    <li><span class="subtitle">GitHub account: </span><a href="https://github.com/jok0nda">jok0nda</a></li>
+                    <li><span class="subtitle">Discord: </span>jok0nda#1994</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p>I&#39m here to know something new and learn something interesting. My life motto is <span class="accent">“Never stop learning”</span>.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GIT</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <pre><code>
+                    &lt;form action=&quot;/people&quot;&gt;
+                        &lt;input type=&quot;text&quot;&gt;
+                        &lt;input type=&quot;text&quot;&gt;
+                            &lt;select multiple&gt;
+                              &lt;option&gt;Banana&lt;/option&gt;
+                              &lt;option&gt;2 Banana&lt;/option&gt;
+                              &lt;option&gt;3 Banana&lt;/option&gt;
+                               &lt;option&gt;No Banana&lt;/option&gt;
+                            &lt;/select&gt;
+                        &lt;br&gt;
+                          &lt;button&gt;Send Banana&lt;/button&gt;
+                      &lt;/form&gt;
+                    </code></pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li><span class="subtitle">University: </span>State University of Land Use Planning</li>
+                    <li><span class="subtitle">Courses: </span>RSSchool stage#0</li>
+                </ul>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>English level is <span class="accent">B1</span>(intermediate)</p>
+                </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>Coopyriting &#169; <time datetime="2022">2022</time>  </p>
+        </div>
+    </footer>
 </body>
 </html>
