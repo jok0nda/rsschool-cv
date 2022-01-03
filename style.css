@@ -1,135 +1,176 @@
 html {
     scroll-behavior: smooth; 
 }
+
 * {
     box-sizing: border-box;
   }
+
 body {
-    font-family: "Work Sans", sans-serif;
-    min-height: 100vh;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
 }
+
 .header {
-    font-family: "Work Sans", sans-serif;
-    background-color: #4283B6;
-    color: #FAEFCA;
     height: 10vh;
-}
-.main {
     font-family: "Work Sans", sans-serif;
-    background-color: #FAEFCA;
-    color:#4283B6;
-    max-height: 84vh;
-    display: flex;
-    padding: 0 0 50px 0;
-}
-.footer {
-    font-family: "Work Sans", sans-serif;
-    background-color: #4283B6;
     color: #FAEFCA;
+    background-color: #4283B6;
+}
+
+.main {
+    display: flex;
+    max-height: 84vh;
+    padding: 0 0 50px 0;
+    font-family: "Work Sans", sans-serif;
+    color:#4283B6;
+    background-color: #FAEFCA;
+}
+
+.footer {
+    height: 6vh;
     padding: 0 20px;
     margin: 0;
-    height: 6vh;
+    font-family: "Work Sans", sans-serif;
+    color: #FAEFCA;
+    background-color: #4283B6;
 }
+
 .footer-container {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
   }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
   }
+
 .nav-link {
-    padding: 0 20px;
     line-height: 50px;
+    padding: 0 20px;
     text-decoration: none;
     font-size: 16px;
-    transition: 0.3s;
     color: #F1E1A7;
+    transition: 0.3s;
   }
+
   .nav-link:hover {
     color: #9C8E58;
   }
+
   .main-container {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 1440px;
-      margin: 0 auto;
-      justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
   }
+
   .section {
     width: 45%;
   }
+
   @media (max-width: 768px) {
     .section {
       width: 100%;
     }
   }
+
   .section-header {
-      width: 100%;
-      max-height: 20%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 20%;
+
   }
+
   .section-header-title {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-evenly;
-  font-size: 25px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #4283B6;
-  width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4283B6;
   }
+
   .avatar {
-      position: relative;
-      height: 230px;
-      cursor: pointer;
-      transition: 0.3s;
-      margin: 0 0 0 50px;
+    position: relative;
+    height: 230px;
+    margin: 0 0 0 50px;
+    cursor: pointer;
+    transition: 0.3s;
   }
+
   .avatar:hover {
-      height: 255px;
+    height: 255px;
   }
+
   .section-title {
-      border: 3px solid #4283B6;
-      border-left: none;
-      border-right: none;
-      border-top: none;
-      color:#2B5A80;
-      font-weight: 500
+    border: 3px solid #4283B6;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color:#2B5A80;
+    font-weight: 500
   }
-  .subtitle, .accent {
-      font-weight: 500;
+
+  .subtitle, 
+  .accent {
+    font-weight: 500;
   }
+
   li {
     list-style: none;
   }
+
   .standart-list-item::before {
     content: " ✔ ";
   }
+
 .simple-link {
   text-decoration: none;
   color:#4283B6;
   transition: color 0.5s;
 }
+
 .simple-link:hover {
   color:#2B5A80;
 }
+
 .simple-link:visited {
   color:#14344D;
 }
+
+img {
+  vertical-align: middle;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #F1E1A7;
+    transition: 0.3s;
+  }
+
+  .footer-link:hover {
+    color: #9C8E58;
+  }
