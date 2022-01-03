@@ -4,7 +4,7 @@
 + **Location:** Sergiev Posad, Russia
 + **Phone:** +7 926 274-66-16
 + **E-mail:** masha_rulezz@mail.ru
-+ **GitHub account:** [My GitHub] (https://github.com/jok0nda "Тык")
++ **GitHub account:** [My GitHub](https://github.com/jok0nda "Тык")
 + **Discord:** jok0nda#1994
 
 ## About me
