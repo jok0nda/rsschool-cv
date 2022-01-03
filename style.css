@@ -25,7 +25,7 @@ body {
 
 .main {
     display: flex;
-    height: 84vh;
+    flex-grow: 1;
     padding: 0 0 50px 0;
     font-family: "Work Sans", sans-serif;
     color:#4283B6;
