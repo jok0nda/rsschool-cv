@@ -7,8 +7,8 @@ html {
 body {
     font-family: "Work Sans", sans-serif;
     min-height: 100vh;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,18 +17,29 @@ body {
     font-family: "Work Sans", sans-serif;
     background-color: #4283B6;
     color: #FAEFCA;
+    height: 10vh;
 }
 .main {
     font-family: "Work Sans", sans-serif;
     background-color: #FAEFCA;
     color:#4283B6;
-    font-size: 20;
+    max-height: 84vh;
+    display: flex;
+    padding: 0 0 50px 0;
 }
 .footer {
     font-family: "Work Sans", sans-serif;
     background-color: #4283B6;
     color: #FAEFCA;
     padding: 0 20px;
+    margin: 0;
+    height: 6vh;
+}
+.footer-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 .container {
     max-width: 1440px;
@@ -68,32 +79,31 @@ body {
   }
   .section-header {
       width: 100%;
+      max-height: 20%;
       display: flex;
       align-items: center;
+      justify-content: space-between;
   }
   .section-header-title {
   display: flex;
   width: 100%;
   flex-direction: column;
+  justify-content: space-evenly;
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #4283B6;
-  border: 10px solid;
-  border-left: none;
-  border-right: none;
+  width: 60%;
   }
-
   .avatar {
       position: relative;
-      height: 250px;
-      margin: 25px;
+      height: 230px;
       cursor: pointer;
-      transition: 1s
+      transition: 0.3s;
+      margin: 0 0 0 50px;
   }
   .avatar:hover {
-      height: 300px;
-      margin: 0;
+      height: 255px;
   }
   .section-title {
       border: 3px solid #4283B6;
@@ -106,3 +116,20 @@ body {
   .subtitle, .accent {
       font-weight: 500;
   }
+  li {
+    list-style: none;
+  }
+  .standart-list-item::before {
+    content: " ✔ ";
+  }
+.simple-link {
+  text-decoration: none;
+  color:#4283B6;
+  transition: color 0.5s;
+}
+.simple-link:hover {
+  color:#2B5A80;
+}
+.simple-link:visited {
+  color:#14344D;
+}
